@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<section class="cd-hero" style=" background: url(<?php echo the_post_thumbnail_url('large') ?> )no-repeat center center;background-size: cover;">
+                <div class="cd-hero-content">
+                   <div class="hero---title" style="width: 45%; margin-left: 81px;
+                        padding: 50px;">
+                  <h1 class="" style="color: #fff;
+                        font-weight: 700;font-size: 40px;
+                       ">
+                        {{ page.title }}</h1>
+                        <p style="color: #fff;"><?php echo $intro; ?></p>
+                        </div>
+                  </div>
+</section> 
+
+
+    <div class="post-list row">
+{% for post in site.categories[page.category] %}
+
+      <div class="article--game" style="">
+          <div class="article--game--center">
+                   <div class="col-md-6 col-float">
+                     <div style="padding: 0px 15px 50px;text-align: center;"><img class="img--game" style="" data-adaptive-background src="<?php echo $thumb ?>" alt=""></div>
+                   </div>
+                   
+                   
+                    <div class="col-md-6 col-float games--container"> 
+                      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                   <h4 style="" class="article--game--date">{{ post.date | date: date_format }}</h4>
+                   <h4 style="width: 100%;" class="article--game--title"> {{ post.title | escape }}</h4>
+                   <hr>
+                   
+                    <p style=""> {%- if site.show_excerpts -%}
+                      {{ post.excerpt }}
+                    {%- endif -%}</p>
+                   
+                   <div>
+                      <a href="{{ post.url | relative_url }}">Read More</a>
+                   </div>
+                   
+
+                    </div> 
+                  
+          </div>
+           
+      </div>
+
+   
+{% endfor %}
+ </div>

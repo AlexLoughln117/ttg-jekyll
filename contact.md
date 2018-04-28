@@ -1,6 +1,6 @@
 ---
 layout: ttg-home
-title: Contact Me
+title: New Home
 permalink: /contact/
 ---
 

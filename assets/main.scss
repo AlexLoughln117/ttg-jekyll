@@ -9,8 +9,18 @@
 
 .page-content{padding-top: 0px;}
 .large-heading{margin-top:60px;min-height:300px;display: flex;justify-content: center;align-items: center;background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);color: #fff;
-}
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);color: #fff;}
+.cd-hero {height: 70vh;margin-top: 80px;display: table;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;}
+.cd-hero .cd-hero-content {display: table-cell;vertical-align: middle;}
+
+/*GRID CSS-----------------------------*/
+
+.row{display: flex;flex-direction: column;}
+.col-md-6 {width: 50%;}
 
 
 /*HEADER CSS--------------------------*/
@@ -21,7 +31,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);color: #fff;
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: #fff;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -30,7 +40,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);color: #fff;
     transition: -webkit-transform .5s;
     transition: transform .5s;
     transition: transform .5s, -webkit-transform .5s;}
- .header-wrapper{padding: 0 15px;width: 100%;}
+ .header-wrapper{padding: 0 15px;width: 100%;height: 100%;display: flex;justify-content: space-between;align-items: center;}
 .site-title{    color: black!important;
     font-weight: bolder!important;
     font-size: 1.5rem!important;
@@ -54,4 +64,34 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);color: #fff;
 /*HOMEPAGE CSS----------------------------------------*/
 
 .home{padding-top: 25px;}
+.ctn--home{width: 100%;display: flex;justify-content: center;align-items: center;-webkit-flex-direction: column;margin-top: 80px;flex-direction: column;}
+.ctn--home a:hover{text-decoration: none;}
+.article {max-height: 750px;height: 90vh;width: 100vw;max-width: 1500px;display: flex;justify-content: center;align-items: center;}
+.box-two {max-height: 750px;background-color: #183f63;height: 90vh;width: 100vw;display: flex;justify-content: center;align-items: center;
+ background-repeat: no-repeat;background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);flex-direction: column;}
+ .article h1 { font-weight: 900;font-size: 100px;line-height: .96;letter-spacing: .02em;text-transform: uppercase;}
+ .home-games2018 h1 { transition: all .25s ease-in-out;color: #fff;margin: 0px;width: 50%;padding: 0 25px;}
+ .home-games2018:hover h1 {text-decoration:none; -webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px; color: transparent !important;-webkit-text-stroke-width: 2px;}
+.box-two:hover .home-games2018 h1 {text-decoration:none; -webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px; color: transparent !important;-webkit-text-stroke-width: 2px;}
+.home-games2018 span {transition: all .15s ease-in-out;-webkit-text-stroke-color: #fff; -webkit-text-stroke-width: 1px;color: transparent;
+-webkit-text-stroke-width: 2px;}
+.home-games2018:hover span {color: #fff !important;}
+.box-two:hover .home-games2018 span {color: #fff !important;}
+.article h4 {width: 100%;padding: 10px 25px;color: #fff;line-height: .96;letter-spacing: .02em;text-transform: uppercase;margin-bottom: 15px;width: 100%;
+padding: 10px 25px;}
+.box-three {background-image: linear-gradient( 135deg, #E8D07A 0%, #5312D6 100%);}
+.book--heading { -webkit-transform: translate3d(0,40px,0);transform: translate3d(0,40px,0);-webkit-transition: -webkit-transform 0.35s;
+transition: transform 0.35s;padding: 0 !important;}
+.box-three:hover .book--heading { -webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+.book--subheading {opacity: 0;-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;transition: opacity 0.2s, transform 0.35s;
+transition-duration: 0.2s, 0.35s;transition-delay: 0s, 0s;margin-bottom: 0px;}
+.box-three:hover .book--subheading {-webkit-transition-delay: 0.05s;transition-delay: 0.05s;-webkit-transition-duration: 0.35s;transition-duration: 0.35s;
+opacity: 1;-webkit-transform: translate3d(0,40px,0);transform: translate3d(0,15px,0);}
+
+/*GAMES LISTING POSTS CSS-----------------------------*/
+
+.article--game--center{display: flex;}
+.hero---title{ background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);}
+.hero---title h1{margin-bottom: 0px;}
+.article--game--center {padding: 30px;transition: all 0.5s ease; max-width: 1500px;}
 

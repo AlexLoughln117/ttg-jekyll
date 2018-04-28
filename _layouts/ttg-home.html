@@ -2,47 +2,28 @@
 layout: default
 ---
 
-<div class="">
-  {%- if page.title -%}
-    <h1 class="page-heading large-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="ctn--home">
+   <a href="/category/games2018"> 
+      <div class="article box-two" style="">
+           
+            <div class="home-games2018">
+                <h1>Games <span>of</span> 2018</h1>
+                <h4 style="">The second year of putting all my thoughts about games into words</h4> 
+            </div>
+            <div>
+            
+           </div>
+      </div>
+    </a>
+    <a href="/category/books"> 
+      <div class="article box-three"">
+          <div class="article--center book--center">
+              
+            <h1 class="book--heading" style="color: #fff;margin-top:-40px;width: 100%;">Books</h1>
+            <h4 class="book--subheading" style="width: 100%;padding-left: 8px;">Thoughts on the books on rotation in my life</h4>
+          </div>
+      </div>
+    </a>
 
-  <div class="wrapper">
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-  
-         <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  
-  {%- endif -%}
-
-  <ul>
-  {% for item in site.staff_members %}
-    <li>
-      <div><img src="{{ item.image }}" alt="Staff photo for {{ item.name }}"></div>
-      <p>{{ item.name }} - {{ item.phone }}</p>
-      <p>{{ item.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
-
-  </div>
 
 </div>

@@ -1,25 +1,13 @@
 ---
 layout: post
-title:  "Alex Post One"
+title:  "Uncharted: The Lost Legacy"
 date:   2018-04-27 11:14:28 +0100
-categories: game of the year
+categories: games2018
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+The most refreshing thing about Uncharted: Lost Legacy is not the new gameplay twists or exciting locales. But the well written, funny and touching between two women, one who is mixed race and one who is Black South African. It is rare, in any media, to see a story like this but in games, this might be a first. Lost Legacy shows that Uncharted loses nothing by dropping Nathan Drake, it still has all the fun, drama and fizzle the series is known for but is finally telling a worthwhile tale as well.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+You play as Chloe Frazer, a swashbuckling treasure hunter in the mould of Nathan Drake. Chloe is every bit as charming and sarcastic as Nathan Drake but helped immensely by the fact she's a mixed-race, Australian woman and not a straight white man. Voiced by Claudia Black, she delivers a performance like no other, with a charm and warmth that feels as if you've known her for years but with a subtle edge that hints at the sad past that drives her. Naughty Dog created a better Nathan Drake and it works very well. Chloe's foil through her adventure is Nadine Ross, her opposite in every way except their ability to kill men without blinking. Nadine is stern, tough and straight to the point, and it's refreshing to see Naughty Dog write someone who isn't constantly quipping and dripping with sarcasm. Immediately they don't blend well as a duo but their growing warmth and friendship throughout the game are done beautifully. They start as strangers but end up as friends, having so many cute exchanges you'll want a friendship like theirs by the end of the game. The pair's developing friendship is the driving force for the story as the actual plot is fairly lacklustre. Chloe and Nadine are on the hunt for another long lost treasure because they need money and father-daughter closure (very Lara Croft). Along the way, they encounter a warlord who is bad, and that is all there is to him. Thankfully there is no mysticism involved, it is a simple treasure hunt story which allows the interpersonal relationships to take centre stage. And Lost Legacy is all the better for it.
 
-Jekyll also offers powerful support for code snippets:
+Gameplay wise you can clearly tell that this was once planned to be a simple piece of DLC for Uncharted 4. Naughty Dog took very few risks with it simply expanding on the new ideas they introduced in 4. The large-ish areas return, feeling more fleshed out this time. In Lost Legacy, these roam-able areas actually have side activities and changing patterns to help breath life into them. The driving is still more fun than you would think and platforming is as Uncharted as it ever was but the less the said about the shooting the better. Once again all I can say is that the gunplay works and it's fine but I wish was better but hey it works. What is more disappointing to me is that I hoped they would have given you more tools to explore stealth options. This still remains the best thing they introduced in Uncharted 4 and feels much truer to how these characters would really act when up against these odds. Luckily for Naughty Dog, the gameplay is mindless and fun enough to make sure it doesn't get in the way. Come to Lost Legacy to witness Chloe and Nadine's story and enjoy the gameplay as much as you can.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The general consensus around the internet is that one of Lost Legacy's strengths is its relative brevity compared to Uncharted 4. On the one hand, I agree, Lost Legacy shows what a good editor can do, as it sums up and combines all the best elements of the series. Without the weight and baggage, the series had developed. Yet I'm torn, the strength of the writing for both Chloe and Nadine and the strength Naughty Dog has shown writing characters out of the typical straight, white, male trope, has me wishing there was more. If only we had a world in which we'd received four full length, triple-A budget games about two female action heroes. Two women who are simply good at what they do and don't follow the usual plot tropes we so sadly expect. But as that world doesn't yet exist, Lost Legacy will do just fine in the meantime. I'm glad to see large companies like Sony and Naughty Dog taking the chance to see that yes, there are other viewpoints and characters out there to be told. And they can be better than what we've become so used to. Lost Legacy is a great game and a truly excellent end for the series, doing something new and doing it extremely well.
